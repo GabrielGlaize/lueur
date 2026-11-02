@@ -43,7 +43,7 @@
 - Ton sans jugement : un dépassement dit « ce n'est pas grave, demain repart à zéro ».
 - Les quatre états sont traités : chargement, données illisibles, vide (première utilisation), prêt.
 - Le bouton « Enregistrer » des réglages est fixé en bas, toujours atteignable.
-- Vérifié à l'écran (simulateur iPhone 17 Pro, clair et sombre) : l'écran de bienvenue seulement. **À faire** : captures et vérification à l'écran de l'accueil et des réglages (les tests d'interface les couvrent, pas l'œil).
+- Vérifié à l'écran (simulateur iPhone 17 Pro, clair et sombre) : bienvenue, rythme, rappel, accueil, réglages et aide, par un test d'intégration qui photographie chaque écran (`integration_test/screenshots_test.dart`). Cette vérification a révélé un libellé « aujourd'hui » coupé en deux lignes, corrigé.
 - Une seule langue (français) ; textes à extraire pour ajouter l'anglais.
 
 ## Compilation
