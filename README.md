@@ -4,6 +4,13 @@ Application mobile (Flutter, iOS et Android) qui tire chaque matin un quota de c
 
 Projet personnel de Gabriel Glaize, refondu en novembre 2026 (première version générée avec Codex en juillet 2026).
 
+<p>
+  <img src="docs/captures/accueil.webp" width="190" alt="Accueil, thème clair">
+  <img src="docs/captures/accueil-sombre.webp" width="190" alt="Accueil, thème sombre">
+  <img src="docs/captures/reglages.webp" width="190" alt="Réglages">
+  <img src="docs/captures/aide.webp" width="190" alt="Aide et confidentialité">
+</p>
+
 ## Ce que fait l'app
 
 - Onboarding en trois étapes : maximum habituel, type de tirage, rappel.
@@ -27,6 +34,15 @@ flutter run
 ```sh
 ./scripts/build-ios-sim.sh
 ```
+
+## Régénérer les captures
+
+```sh
+# depuis une copie hors de ~/Documents (voir plus haut), simulateur iPhone démarré
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/screenshots_test.dart -d <id du simulateur>
+```
+
+Les images sont écrites dans `screenshots/`.
 
 ## Vérifier
 

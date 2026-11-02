@@ -324,7 +324,7 @@ class _WeekRow extends StatelessWidget {
           child: Row(
             children: [
               SizedBox(
-                width: 70,
+                width: 104,
                 child: Text(
                   isToday ? "aujourd’hui" : _WeekCard.label(record),
                   style: TextStyle(color: scheme.onSurfaceVariant),
@@ -337,7 +337,9 @@ class _WeekRow extends StatelessWidget {
                 ),
               ),
               Icon(
-                record.respected ? Icons.check_circle_outline : Icons.circle,
+                record.respected
+                    ? Icons.check_circle_outline
+                    : Icons.error_outline,
                 size: 20,
                 color: record.respected ? scheme.primary : scheme.error,
               ),
