@@ -17,7 +17,7 @@ Ce qui reste à faire par un humain avant de donner l'app à des testeurs, puis 
 - [ ] Créer une clé de signature Android, la garder précieusement (la perdre empêche toute mise à jour), et remplacer la signature de debug de la release.
 - [ ] Essayer sur un vrai iPhone et un vrai Android : permission de notification, rappel à l'heure choisie, redémarrage du téléphone, changement de fuseau, passage à minuit app ouverte.
 - [ ] Passage VoiceOver et TalkBack à la main.
-- [ ] Pousser le dépôt sur GitHub pour que la CI tourne.
+- [ ] Passer le dépôt GitHub (privé aujourd'hui) en public une fois ce contrôle fait.
 
 ## 3. Version de test
 

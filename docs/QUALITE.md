@@ -50,4 +50,4 @@
 
 - iOS simulateur : compile (`./scripts/build-ios-sim.sh`).
 - Android : `flutter build apk --debug` compile.
-- CI GitHub : format, analyse, tests (`.github/workflows/ci.yml`), pas encore exécutée tant que le dépôt n'est pas poussé.
+- CI GitHub : format, analyse, tests (`.github/workflows/ci.yml`), exécutée avec succès le 2 novembre 2026 sur le dépôt privé `GabrielGlaize/lueur`.
